@@ -1,8 +1,38 @@
-*
-{
-   color:black;
-   background-color:orange;
-   text-align:center;
+.banner{
+    font-family:"Times New Roman",Georgia,sans-serif;
+    font-size:40px;
+    font-weight:bold;
+    font-style: italic;
+    text-align: center;
+    padding:100px;
     
-    list-style-position: inside;
+    
 }
+body{
+    background-color: rgb(120, 191, 233);
+    
+}
+ol { 
+    text-align:center;
+       
+}
+/*wrapped up list items inside a div block with id and changed its outer display
+type to inline and inner to flex ny inline fles just so that the div block can be
+centered using text-align declartion as it has now become a inline element*/
+   
+#list
+{
+display:inline-flex;
+}
+
+li{ font-family:"Times New Roman",Georgia,sans-serif;
+    font-size:40px;
+    font-weight:bold;
+    font-style: italic;
+    color:red;
+    list-style-position: inside;
+    margin:20px;
+    padding:50px;
+    
+}
+
